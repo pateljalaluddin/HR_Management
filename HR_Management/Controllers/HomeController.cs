@@ -10,20 +10,9 @@ namespace HR_Management.Controllers
     {
         public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
+            //var listofData = _context.TblEmployee.ToList();
+            //var listofData = TblEmployee.ToList();
+            //return View(listofData);
             return View();
         }
     }
